@@ -4,9 +4,9 @@
 
 **Cloud, integration, data, AI and motorsports technology, written up on LinkedIn<br>and backed here with diagrams, takeaways and runnable code.**
 
-![Articles](https://img.shields.io/badge/articles-141-0A66C2?style=flat-square)
-![Deep dives](https://img.shields.io/badge/deep_dives-7-6f42c1?style=flat-square)
-![Code repos](https://img.shields.io/badge/companion_repos-4-181717?style=flat-square&logo=github)
+![Articles](https://img.shields.io/badge/articles-142-0A66C2?style=flat-square)
+![Deep dives](https://img.shields.io/badge/deep_dives-8-6f42c1?style=flat-square)
+![Code repos](https://img.shields.io/badge/companion_repos-7-181717?style=flat-square&logo=github)
 [![LinkedIn](https://img.shields.io/badge/follow-LinkedIn-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/tony-honesto-4195023)
 
 </div>
@@ -19,6 +19,7 @@ Each deep dive turns an article into a one-page visual brief (architecture diagr
 
 | | Article | What's on the page |
 |:-:|---|---|
+| 📺 | **[Three Stakeholders, One Proof of Concept](articles/2026-10-watch-session-tracker/README.md)**<br><sub>A real-time watch session tracker, built twice</sub> | The session state machine, the trade-off table, zero-deps vs Express + Zod · [💻 TypeScript ×2 + simulator](https://github.com/atonyhonesto/watch-session-tracker-lightweight) |
 | 🏁 | **[AI/ML at Race Speed](articles/2026-05-ai-ml-at-race-speed/README.md)**<br><sub>Low-latency inference, confidence thresholds & fallback</sub> | The 25 ms pit-wall pipeline, dual-threshold gate, three-tier fallback · [💻 runnable Python](https://github.com/atonyhonesto/race-speed-inference) |
 | 🔌 | **[A Local C# MCP Server for Parquet Data](articles/2026-06-csharp-mcp-server-for-parquet/README.md)**<br><sub>Plain-English questions over local data with Claude Code</sub> | Architecture and tool-call sequence · [💻 .NET 10 source](https://github.com/atonyhonesto/ParquetMCPServer) |
 | 🏥 | **[Azure Logic Apps for HL7 ADT](articles/2026-02-logic-apps-hl7-adt/README.md)**<br><sub>Decoding hospital admission messages without parsers</sub> | Workflow diagram, HL7 → JSON walkthrough · [💻 Logic App workflow](https://github.com/atonyhonesto/logicapp-hl7-adt-a01-decoder) |
@@ -30,7 +31,7 @@ Each deep dive turns an article into a one-page visual brief (architecture diagr
 ## 📚 Every article, by theme
 
 <!-- CATALOG:START -->
-**141 articles**, newest first within each theme.
+**142 articles**, newest first within each theme.
 
 <details>
 <summary><b>🏎️ Motorsports & Sports Technology</b> (23)</summary>
@@ -146,8 +147,9 @@ Each deep dive turns an article into a one-page visual brief (architecture diagr
 </details>
 
 <details>
-<summary><b>🧱 Software Architecture & Engineering Practice</b> (21)</summary>
+<summary><b>🧱 Software Architecture & Engineering Practice</b> (22)</summary>
 
+- [Three Stakeholders, One Proof of Concept: Building a Real-Time Watch Session Tracker](https://www.linkedin.com/pulse/three-stakeholders-one-proof-concept-tony-honesto-rvkqc/) · [📊 deep dive](articles/2026-10-watch-session-tracker/README.md) · [💻 code](https://github.com/atonyhonesto/watch-session-tracker-lightweight)
 - [SignalR vs .NET 10 Server-Sent Events - Real-Time Communication](https://www.linkedin.com/pulse/signalr-vs-net-10-server-sent-events-real-time-tony-honesto-ofigc/) · [📊 deep dive](articles/2026-05-signalr-vs-dotnet10-sse/README.md)
 - [The AI Coding Tax — Stop AI Tools From Quietly Accumulating Technical Debt](https://www.linkedin.com/pulse/ai-coding-tax-stop-tools-from-quietly-accumulating-debt-tony-honesto-ikagc/) · [📊 deep dive](articles/2026-05-ai-coding-tax/README.md)
 - [Node.js Applications with Feature-Based Architecture](https://www.linkedin.com/pulse/nodejs-applications-feature-based-architecture-tony-honesto-e38dc/)
