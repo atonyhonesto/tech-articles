@@ -69,7 +69,10 @@ def main() -> None:
         raise SystemExit("CATALOG markers not found in README.md")
     new = pattern.sub(lambda m: m.group(1) + render(load()) + m.group(2), text)
     count = len(load())
-    new = re.sub(r"articles-\d+-", f"articles-{count}-", new)  # keep the badge count honest
+    new = re.sub(r"articles-\d+-", f"articles-{count}-", new)  # keep the badge counts honest
+    with_code = sum(1 for r in load() if r["companion_repo"])
+    new = re.sub(r"articles_with_code-\d+-", f"articles_with_code-{with_code}-", new)
+    new = re.sub(r"^\d+ of the articles link to code", f"{with_code} of the articles link to code", new, flags=re.M)
     readme.write_text(new, encoding="utf-8")
     print(f"README.md catalog rebuilt ({count} articles)")
 
