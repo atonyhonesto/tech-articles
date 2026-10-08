@@ -30,6 +30,7 @@ flowchart TB
         direction LR
         S1["SaaS & databases<br/>Salesforce · SQL · APIs"] --> LD["Load raw"] --> WH["Cloud warehouse<br/>pushdown ELT"] --> BI["BI · reporting · ML"]
     end
+    BT ~~~ MT
 ```
 
 ## The seven shared pillars
